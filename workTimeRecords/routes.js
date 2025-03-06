@@ -19,4 +19,6 @@ router.post(
   WorkTimeRecordController.createWorkTimeRecord
 );
 
+router.delete("/:workTimeRecordId", WorkTimeRecordController.deleteWorkTimeRecord);
+
 module.exports = router;

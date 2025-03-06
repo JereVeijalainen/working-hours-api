@@ -50,10 +50,9 @@ module.exports = {
   //   });
   // },
 
-  // TODO
-  // deleteWorkTimeRecord: (query) => {
-  //   return this.model.destroy({
-  //     where: query
-  //   });
-  // }
+  deleteWorkTimeRecord: (query) => {
+    return this.model.destroy({
+      where: query
+    });
+  }
 };
